@@ -57,7 +57,7 @@ ls -la
 cd ..  
 mv dir_2/1.txt dir_2/2.txt dir_1  
 ```
-файл: [script](https://github.com/AlekseiRbo/LinuxTerminal_GitBash/blob/c1ec5a872508b02cd9b1e880fbb269c76c582b65/script.sh "script")
+файл: [script](https://github.com/AlekseiRbo/LinuxTerminal_GitBash1/blob/45fc4318f5b3002108dfcf1e172c028da808fc2b/script.sh "script")
 
 
 __________________________________________________________________________________
