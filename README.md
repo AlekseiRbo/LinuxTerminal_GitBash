@@ -1,1 +1,0 @@
-# LinuxTerminal_GitBash1
