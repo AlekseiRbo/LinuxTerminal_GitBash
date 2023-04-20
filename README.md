@@ -46,7 +46,9 @@ commands:
 touch script.sh  
 vim script.sh  
 ./script.sh  
-
+```
+script body:
+```
 #!/bin/bash  
 cd homework_1  
 mkdir dir_1 dir_2 dir_3  
