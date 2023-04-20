@@ -18,7 +18,7 @@ ________________________________________________________________________________
 |  |  2 line  | `"user_name": "Alex",`  |
 |  |  3 line  | `"user_age": 28,`  |
 |  |  4 line  | `"date_of_birth": 1994/08/31,`  |
-| 11 | Save and exit   | `Esc + :wq`   |
+| 11 | Save and exit   | `Esc + :wq` `Esc + :x`   |
 | 12 | Exit folder one level up   | `cd ..`   |
 | 13 | Move any 2 files you have created to any other folde   | `mv dir_2/1.txt dir_2/2.txt dir_1`   |
 | 14 | Copy any 2 files you have created to any other folder   | `cp dir_1/1.txt dir_1/2.txt dir_3`   |
