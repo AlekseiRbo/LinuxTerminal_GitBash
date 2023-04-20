@@ -1,41 +1,41 @@
 # LinuxTerminal_GitBash
 __________________________________________________________________________________
-### **_Задание №1 - Linux terminal (GitBash) commands_**
+### **_Task №1 - Linux terminal (GitBash) commands_**
 __________________________________________________________________________________
-| id |  Задание    | Ответ   |
+| id |  Task    | Answer   |
 | :---   | :--- | :--- |
-| 1 | Посмотреть где я   | `pwd`   |
-| 2 | Создать папку   | `mkdir homework_1`   |
-| 3 | Зайти в папку   | `cd homework_1`   |
-| 4 | Создать 3 папки   | `mkdir dir_1 dir_2 dir_3`   |
-| 5 | Зайти в любую папку   | `cd dir_2`   |
-| 6 | Создать 5 файлов (3 txt, 2 json)   | `touch 1.txt 2.txt 3.txt 1.json 2.json`   |
-| 7 | Создать 3 папки    | `mkdir dir_1 dir_2 dir_3`   |
-| 8 | Вывести список содержимого папки   | `ls -la`   |
-| 9 | Открыть любой txt файл   | `vim 2.txt`   |
-| 10 | Написать туда что-нибудь, любой текст   | `i`    |
-|  |  1 строка  | `{` |
-|  |  2 строка  | `"user_name": "Alex",`  |
-|  |  3 строка  | `"user_age": 28,`  |
-|  |  4 строка  | `"date_of_birth": 1994/08/31,`  |
-| 11 | Сохранить и выйти   | `Esc + :wq`   |
-| 12 | Выйти из папки на уровень выше   | `cd ..`   |
-| 13 | Переместить любые 2 файла, которые вы создали, в любую другую папку   | `mv dir_2/1.txt dir_2/2.txt dir_1`   |
-| 14 | Cкопировать любые 2 файла, которые вы создали, в любую другую папку   | `cp dir_1/1.txt dir_1/2.txt dir_3`   |
-| 15 | Найти файл по имени   | `find . -name 3.txt`   |
-| 16 | Просмотреть содержимое в реальном времени (команда grep) изучите как она работает   | `tail -f dir_1/2.txt \| grep 2`   |
-| 17 | Вывести несколько первых строк из текстового файла   | `head -n3 dir_1/2.txt`   |
-| 18 | Вывести несколько последних строк из текстового файла   | `tail -n3 dir_1/2.txt`   |
-| 19 | Просмотреть содержимое длинного файла (команда less) изучите как она работает   | `less dir_1/2.txt`   |
-| 20 | Вывести дату и время   | `date`   |
+| 1 | See where I am   | `pwd`   |
+| 2 | Create a folder   | `mkdir homework_1`   |
+| 3 | Go to folder   | `cd homework_1`   |
+| 4 | Create 3 folders   | `mkdir dir_1 dir_2 dir_3`   |
+| 5 | Go to any folder   | `cd dir_2`   |
+| 6 | Create 5 files (3 txt, 2 json)   | `touch 1.txt 2.txt 3.txt 1.json 2.json`   |
+| 7 | Create 3 folders    | `mkdir dir_1 dir_2 dir_3`   |
+| 8 | List the contents of a folder   | `ls -la`   |
+| 9 | Open any txt file   | `vim 2.txt`   |
+| 10 | Write something there, any text   | `i`    |
+|  |  1 line  | `{` |
+|  |  2 line  | `"user_name": "Alex",`  |
+|  |  3 line  | `"user_age": 28,`  |
+|  |  4 line  | `"date_of_birth": 1994/08/31,`  |
+| 11 | Save and exit   | `Esc + :wq`   |
+| 12 | Exit folder one level up   | `cd ..`   |
+| 13 | Move any 2 files you have created to any other folde   | `mv dir_2/1.txt dir_2/2.txt dir_1`   |
+| 14 | Copy any 2 files you have created to any other folder   | `cp dir_1/1.txt dir_1/2.txt dir_3`   |
+| 15 | Find file by name   | `find . -name 3.txt`   |
+| 16 | View content in real time (grep command) learn how it works   | `tail -f dir_1/2.txt \| grep 2`   |
+| 17 | Extract the first few lines from a text file   | `head -n3 dir_1/2.txt`   |
+| 18 | Print the last few lines from a text file   | `tail -n3 dir_1/2.txt`   |
+| 19 | View the contents of a long file (less command) learn how it works   | `less dir_1/2.txt`   |
+| 20 | Output date and time   | `date`   |
 
 __________________________________________________________________________________
 
 
-### **_Задание *_**
+### **_Task *_**
 
-1. Отправить http запрос на сервер. http://162.55.220.72:5005/terminal-hw-request  
-команда: `curl http://162.55.220.72:5005/terminal-hw-request`   
+1. Send http request to server. http://162.55.220.72:5005/terminal-hw-request  
+command: `curl http://162.55.220.72:5005/terminal-hw-request`   
 ответ: 404 Not Found  
 
 
