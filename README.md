@@ -2,7 +2,7 @@
 __________________________________________________________________________________
 ### **_Task №1 - Linux terminal (GitBash) commands_**
 __________________________________________________________________________________
-| id |  Task    | Answer   |
+| id |  Task    | Response   |
 | :---   | :--- | :--- |
 | 1 | See where I am   | `pwd`   |
 | 2 | Create a folder   | `mkdir homework_1`   |
@@ -36,12 +36,12 @@ ________________________________________________________________________________
 
 1. Send http request to server. http://162.55.220.72:5005/terminal-hw-request  
 command: `curl http://162.55.220.72:5005/terminal-hw-request`   
-ответ: 404 Not Found  
+response: 404 Not Found  
 
 
-2. Написать скрипт который выполнит автоматически пункты: 3, 4, 5, 6, 7, 8, 13
+2. Write a script that will automatically execute the items: 3, 4, 5, 6, 7, 8, 13
 
-команды:
+commands:
 ```
 touch script.sh  
 vim script.sh  
@@ -57,11 +57,11 @@ ls -la
 cd ..  
 mv dir_2/1.txt dir_2/2.txt dir_1  
 ```
-файл: [script](https://github.com/AlekseiRbo/LinuxTerminal_GitBash1/blob/45fc4318f5b3002108dfcf1e172c028da808fc2b/script.sh "script")
+file: [script](https://github.com/AlekseiRbo/LinuxTerminal_GitBash1/blob/45fc4318f5b3002108dfcf1e172c028da808fc2b/script.sh "script")
 
 
 __________________________________________________________________________________
 
-* Посмотреть где я - `pwd`  
-* Создать папку - `mkdir "foldername"`  
-* Зайти в папку - `cd "foldername"`
+* See where I am - `pwd`  
+* Create a folder - `mkdir "foldername"`  
+* Go to folder - `cd "foldername"`
