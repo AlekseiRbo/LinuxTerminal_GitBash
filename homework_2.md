@@ -41,7 +41,7 @@ ________________________________________________________________________________
 | 32 | Find only the name and path to files where there is no “second” combination   | `grep -rL "second" .`   |
 | 33 | Print the last 4 lines of any text file to the terminal   |  `tail -n4 filename.txt`    |
 | 34 | Output to terminal 4 the first lines of any text file   |   `head -n4 filename.txt`    |
-| 35 | One line command. Create folder and create text file with contents   | `mkdir 1 \| echo "privet" \| cat > example.txt` `mkdir inner_dir_2 && cat >> inner_dir_2/tf_6.txt`   |
+| 35 | One line command. Create folder and create text file with contents   | `mkdir dir_2 \| echo "privet" > example.txt` `mkdir dir_2 && echo "privet" > dir_2/tf_6.txt`   |
 | 36 | One line command. Move to any one folder text files that have the word “sec” in their content   | `grep -rlw sec \| xargs mv -t inner_dir_2`   |
 | 37 | One line command. Copy to any one folder text files that have the word “sec” in their content   | `grep -rlw sec \| xargs cp -t inner_dir_1`   |
 | 38 | One line command. Find all lines with "sec" in all text files, copy and paste these lines into one new created text file   | `grep -rh sec >> new_file.txt`   |
