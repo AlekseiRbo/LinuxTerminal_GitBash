@@ -28,11 +28,11 @@ ________________________________________________________________________________
 | 19 | Find path to tf_4.txt file   | `find . -name tf_4.txt`   |
 | 20 | Clear the tf_4.txt file from the contents without deleting the file itself   | `echo "" > tf_4.txt`   |
 | 21 | Find the path to files that have "tf" in their names   | `find . -name "*tf*"`   |
-| 22 | Find the path to files that have "tf" in the name and letters in any case   | `find . name "*tf*"`   |
-| 23 | Find lines in files where there is a combination of letters "sec" in the current folder   | `grep -r "sec" .`   |
-| 24 | Find lines in files where there is a combination of letters "sec" in any case in the current folder   | `grep -ir "sec" .`   |
-| 25 | Find lines in files where there is only a combination of letters "sec" in the current folder   | `grep -r "\<sec\>" .`   |
-| 26 | Find lines in files where there is only a combination of letters “sec” in any case in the current folder   | `grep -ir "\<sec\>" . \| grep -iv "\<sec.*\>"`   |
+| 22 | Find the path to files that have "tf" in the name and letters in any case   | `find . name "*tf*"` `find . -iname "*tf*"`   |
+| 23 | Find lines in files where there is a combination of letters "sec" in the current folder   | `grep -r "sec" .` `grep sec *`   |
+| 24 | Find lines in files where there is a combination of letters "sec" in any case in the current folder   | `grep -ir "sec" .` `grep -i sec *`   |
+| 25 | Find lines in files where there is only a combination of letters "sec" in the current folder   | `grep -r "\<sec\>" .` `grep -w sec *`  |
+| 26 | Find lines in files where there is only a combination of letters “sec” in any case in the current folder   | `grep -ir "\<sec\>" . \| grep -iv "\<sec.*\>"` `grep -wi sec *`  |
 | 27 | Find lines in files where there is a combination of letters “second” in the current folder   | `grep -r "second" .`   |
 | 28 | Find lines in files where there is a combination of letters “second” in any case in the current folder   | `grep -ir "second" .` `grep -i second *`   |
 | 29 | Find lines in files where there is a combination of letters “second” in all folders below   | `grep -nr second */`   |
