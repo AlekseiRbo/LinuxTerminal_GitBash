@@ -46,4 +46,4 @@ ________________________________________________________________________________
 | 37 | One line command. Copy to any one folder text files that have the word “sec” in their content   | `grep -rlw sec \| xargs cp -t inner_dir_1`   |
 | 38 | One line command. Find all lines with "sec" in all text files, copy and paste these lines into one new created text file   | `grep -rh sec >> new_file.txt` `grep -r sec . > new_file.txt`   |
 | 39 | One line command. Delete text files that have the word “sec” in their content   | `grep -rlw sec \| xargs rm`   |
-| 40 | Just print the line “Good job!!”   |   `echo "Good job!!"`     |
+| 40 | Just print the line “Good job!!”   |   `echo "Good job!"`     |
