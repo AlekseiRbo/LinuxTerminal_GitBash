@@ -34,7 +34,7 @@ ________________________________________________________________________________
 | 25 | Find lines in files where there is only a combination of letters "sec" in the current folder   | `grep -r "\<sec\>" .`   |
 | 26 | Find lines in files where there is only a combination of letters “sec” in any case in the current folder   | `grep -ir "\<sec\>" . \| grep -iv "\<sec.*\>"`   |
 | 27 | Find lines in files where there is a combination of letters “second” in the current folder   | `grep -r "second" .`   |
-| 28 | Find lines in files where there is a combination of letters “second” in any case in the current folder   | `grep -ir "second" .`   |
+| 28 | Find lines in files where there is a combination of letters “second” in any case in the current folder   | `grep -ir "second" .` `grep -i second *`   |
 | 29 | Find lines in files where there is a combination of letters “second” in all folders below   | `grep -nr second */`   |
 | 30 | Find only the path and file name in the lines that contain the combination of the letters “second” in the current folder   | `grep -ril "second" .`   |
 | 31 | Find all lines in all files where there is no "second" combination   | `grep -rnv second *`   |
