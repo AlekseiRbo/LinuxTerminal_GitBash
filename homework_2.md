@@ -33,12 +33,12 @@ ________________________________________________________________________________
 | 24 | Find lines in files where there is a combination of letters "sec" in any case in the current folder   | `grep -ir "sec" .` `grep -i sec *`   |
 | 25 | Find lines in files where there is only a combination of letters "sec" in the current folder   | `grep -r "\<sec\>" .` `grep -w sec *`  |
 | 26 | Find lines in files where there is only a combination of letters “sec” in any case in the current folder   | `grep -ir "\<sec\>" . \| grep -iv "\<sec.*\>"` `grep -wi sec *`  |
-| 27 | Find lines in files where there is a combination of letters “second” in the current folder   | `grep -r "second" .`   |
+| 27 | Find lines in files where there is a combination of letters “second” in the current folder   | `grep -r "second" *`   |
 | 28 | Find lines in files where there is a combination of letters “second” in any case in the current folder   | `grep -ir "second" .` `grep -i second *`   |
 | 29 | Find lines in files where there is a combination of letters “second” in all folders below   | `grep -nr second */`   |
-| 30 | Find only the path and file name in the lines that contain the combination of the letters “second” in the current folder   | `grep -ril "second" .`   |
+| 30 | Find only the path and file name in the lines that contain the combination of the letters “second” in the current folder   | `grep -ril "second" *`   |
 | 31 | Find all lines in all files where there is no "second" combination   | `grep -rnv second *`   |
-| 32 | Find only the name and path to files where there is no “second” combination   | `grep -rL "second" .`   |
+| 32 | Find only the name and path to files where there is no “second” combination   | `grep -rL "second" *`   |
 | 33 | Print the last 4 lines of any text file to the terminal   |  `tail -n4 filename.txt`    |
 | 34 | Output to terminal 4 the first lines of any text file   |   `head -n4 filename.txt`    |
 | 35 | One line command. Create folder and create text file with contents   | `mkdir dir_2 \| echo "privet" > example.txt` `mkdir dir_2 && echo "privet" > dir_2/tf_6.txt`   |
