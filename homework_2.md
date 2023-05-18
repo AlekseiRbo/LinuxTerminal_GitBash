@@ -44,6 +44,6 @@ ________________________________________________________________________________
 | 35 | One line command. Create folder and create text file with contents   | `mkdir dir_2 \| echo "privet" > example.txt` `mkdir dir_2 && echo "privet" > dir_2/tf_6.txt`   |
 | 36 | One line command. Move to any one folder text files that have the word “sec” in their content   | `grep -rlw sec \| xargs mv -t inner_dir_2`   |
 | 37 | One line command. Copy to any one folder text files that have the word “sec” in their content   | `grep -rlw sec \| xargs cp -t inner_dir_1`   |
-| 38 | One line command. Find all lines with "sec" in all text files, copy and paste these lines into one new created text file   | `grep -rh sec >> new_file.txt` `grep -r sec . > new_file.txt`   |
+| 38 | One line command. Find all lines with "sec" in all text files, copy and paste these lines into one new created text file   | `grep -rh sec >> new_file.txt` `grep -r sec * > new_file.txt`   |
 | 39 | One line command. Delete text files that have the word “sec” in their content   | `grep -rlw sec \| xargs rm`   |
 | 40 | Just print the line “Good job!!”   |   `echo "Good job!"`     |
