@@ -24,7 +24,7 @@ ________________________________________________________________________________
 | 15 | Make a text file tf_4.txt with 13 lines   | `for i in {1..13}; do echo "This is line $i" >> tF_5.txt; done` `seq 13 \| cat > tf_4.txt `   |
 | 16 | List all files in a folder   | `ls -la`   |
 | 17 | Exit folder inner_dir_1   | `cd ..`   |
-| 18 | Output the contents of the tf_3.txt file to the terminal   | `less inner_dir_1/tf_3.txt`   |
+| 18 | Output the contents of the tf_3.txt file to the terminal   | `less -s inner_dir_1/tf_3.txt`   |
 | 19 | Find path to tf_4.txt file   | `find . -name tf_4.txt`   |
 | 20 | Clear the tf_4.txt file from the contents without deleting the file itself   | `echo "" > tf_4.txt`   |
 | 21 | Find the path to files that have "tf" in their names   | `find . -name "*tf*"`   |
